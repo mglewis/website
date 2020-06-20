@@ -1,0 +1,85 @@
+.site-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.site-container a {
+    color: steelblue;
+}
+
+.site-container h4 {
+    color: steelblue;
+}
+
+.navigation {
+    display: flex;
+    background-color: steelblue;
+    color: white;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: KronaOne;
+}
+
+.navigation-section {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 0rem;
+    margin-left: 1.5rem;
+}
+
+.navigation-section li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flex-upper-body {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.flex-lower-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-element {
+    flex: 1;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.flex-small-element {
+    flex: 1;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    min-width: 50%;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.about-container {
+    min-width: 50%;
+}
+
+.image-container img {
+    max-width: 75%;
+    min-width: 550px;
+    object-fit: scale-down;
+}
+
+@font-face {
+    font-family: KronaOne;
+    src: url(KronaOne-Regular.ttf)
+}
